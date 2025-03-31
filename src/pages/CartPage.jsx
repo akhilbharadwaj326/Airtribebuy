@@ -27,7 +27,7 @@ function CartPage() {
       color: 'green',
     });
     
-    // Clear the cart after successful order
+    
     dispatch(clearCart());
     
     // Redirect to home page
