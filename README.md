@@ -1,12 +1,29 @@
-# React + Vite
+# 🛍️ AirtribeBuy - E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based e-commerce platform where users can browse products, view details, add items to cart, and place orders.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Browse all available products
+- View detailed product information
+- Add products to cart with quantity selection
+- View cart contents
+- Place orders (simulated)
+- Order success notification
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend**: React + Vite
+- **Routing**: React Router
+- **UI Components**: Mantine
+- **State Management**: Redux Toolkit
+- **API Handling**: RTK Query
+- **Browser Storage**: localStorage (for cart persistence)
 
-## Expanding the ESLint configuration
+## 📌 Requirements
+- Node.js (v16+ recommended)
+- npm/yarn/pnpm
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/airtribe-buy.git
+   cd airtribe-buy
